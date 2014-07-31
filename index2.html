@@ -3,8 +3,19 @@
 <head>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link href="osdcpstyles.css" rel="stylesheet" type="text/css">
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="raphael-min.js"></script>
+<script>
+$(document).ready(function(){ 
+ $('#onlineeducation').lazylinepainter(
+ {
+    "svgData": pathObj,
+    "strokeWidth": 2,
+    "strokeColor": "#e09b99"
+}).lazylinepainter('paint');
+ });
+</script>
 <meta charset="UTF-8">
 <title>Collapsible Test Page</title>
 </head>
