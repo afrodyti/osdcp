@@ -1,9 +1,12 @@
 @charset "UTF-8";
-h4 {
+h4, h3 {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #F79C44;
+}
+h3 {
+	font-size: 18px;	
 }
 h2 {
 	margin-top: 0px; !important;
