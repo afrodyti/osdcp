@@ -124,11 +124,11 @@ p.lead {
 
 /* creates the larger triangle */
 .triangle-border.left:before {
-  top:10px; /* controls vertical position */
+  top:13px; /* controls vertical position */
   bottom:auto;
-  left:-30px; /* value = - border-left-width - border-right-width */
-  border-width:15px 30px 15px 0;
-  border-color:transparent #5a8f00;
+  left:-27px; /* value = - border-left-width - border-right-width */
+  border-width:12px 27px 12px 0;
+  border-color:transparent #999;
 }
 
 /* creates the smaller  triangle */
@@ -150,7 +150,7 @@ p.lead {
   left:auto;
   right:-27px; /* value = - border-left-width - border-right-width */
   border-width:12px 0 12px 27px;
-  border-color:transparent #5a8f00;
+  border-color:transparent #999;
 }
 
 /* creates the smaller  triangle */
