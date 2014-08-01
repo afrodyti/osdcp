@@ -163,10 +163,10 @@ p.lead {
   border-color:transparent #fff;
 }
 
-.anim1 { -webkit-animation: object1 5s infinite; }
-.anim2 { -webkit-animation: object2 5s infinite; }
-.anim3 { -webkit-animation: object3 5s infinite; }
-.anim4 { -webkit-animation: object4 5s infinite; }
+.anim1 { -webkit-animation: object1 15s infinite; }
+.anim2 { -webkit-animation: object2 30s infinite; }
+.anim3 { -webkit-animation: object3 30s infinite; }
+.anim4 { -webkit-animation: object4 30s infinite; }
 
 @-webkit-keyframes object1 {
   0%   { opacity: 1; }
