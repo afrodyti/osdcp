@@ -163,33 +163,33 @@ p.lead {
   border-color:transparent #fff;
 }
 
-.anim1 { animation: object1 5s infinite; }
-.anim2 { animation: object2 5s infinite; }
-.anim3 { animation: object3 5s infinite; }
-.anim4 { animation: object4 5s infinite; }
+.anim1 { -webkit-animation: object1 5s infinite; }
+.anim2 { -webkit-animation: object2 5s infinite; }
+.anim3 { -webkit-animation: object3 5s infinite; }
+.anim4 { -webkit-animation: object4 5s infinite; }
 
-@keyframes object1 {
+@-webkit-keyframes object1 {
   0%   { opacity: 1; }
   25%  { opacity: 0; }
   50%  { opacity: 0; }
   100% { opacity: 0; }
 }
 
-@keyframes object2 {
+@-webkit-keyframes object2 {
   0%   { opacity: 0; }
   25%  { opacity: 1; }
   50%  { opacity: 0; }
   100% { opacity: 0; }
 }
 
-@keyframes object3 {
+@-webkit-keyframes object3 {
   0%   { opacity: 0; }
   25%  { opacity: 0; }
   50%  { opacity: 1; }
   100% { opacity: 0; }
 }
 
-@keyframes object4 {
+@-webkit-keyframes object4 {
   0%   { opacity: 0; }
   25%  { opacity: 0; }
   50%  { opacity: 0; }
