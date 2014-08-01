@@ -163,10 +163,10 @@ p.lead {
   border-color:transparent #fff;
 }
 
-anim1 { animation: object1 5s infinite; }
-anim2 { animation: object2 5s infinite; }
-anim3 { animation: object3 5s infinite; }
-anim4 { animation: object4 5s infinite; }
+.anim1 { animation: object1 5s infinite; }
+.anim2 { animation: object2 5s infinite; }
+.anim3 { animation: object3 5s infinite; }
+.anim4 { animation: object4 5s infinite; }
 
 @keyframes object1 {
   0%   { opacity: 1; }
