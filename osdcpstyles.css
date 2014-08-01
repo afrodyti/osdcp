@@ -18,15 +18,12 @@ li {
 }
 a:link {
 	font-weight: bolder; 
-	color: #3B83C2; !important;
 }
 a:hover {
 	font-weight: bolder; 
-	color: #B5C9E0; !important;
 }
 a:visited {
 	font-weight: bolder; 
-	color: #192836; !important;
 }
 p.lead {
 	margin-bottom: 5px; !important;
