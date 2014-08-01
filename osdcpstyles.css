@@ -45,13 +45,13 @@ p.lead {
   position:relative;
   padding:15px;
   margin:1em 0 3em;
-  border:5px solid #5a8f00;
+  border:3px solid #999;
   color:#333;
   background:#fff;
   /* css3 */
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  border-radius:10px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
 }
 
 /* Variant : for left positioned triangle 
@@ -78,7 +78,7 @@ p.lead {
   left:40px; /* controls horizontal position */
   border-width:20px 20px 0;
   border-style:solid;
-  border-color:#5a8f00 transparent;
+  border-color:#999 transparent;
   /* reduce the damage in FF3.0 */
   display:block;
   width:0;
@@ -145,11 +145,11 @@ p.lead {
 
 /* creates the larger triangle */
 .triangle-border.right:before {
-  top:10px; /* controls vertical position */
+  top:13px; /* controls vertical position */
   bottom:auto;
   left:auto;
-  right:-30px; /* value = - border-left-width - border-right-width */
-  border-width:15px 0 15px 30px;
+  right:-27px; /* value = - border-left-width - border-right-width */
+  border-width:12px 0 12px 27px;
   border-color:transparent #5a8f00;
 }
 
