@@ -24,6 +24,7 @@ a:link {
 }
 a:hover {
 	font-weight: bolder; 
+  text-decoration: none;
 }
 a:visited {
 	font-weight: bolder; 
