@@ -6,9 +6,9 @@ h4, h3 {
 	color: #F79C44;
 }
 h3 {
-	font-size: 18px; margin-top:10px; 
+	font-size: 18px; margin-top:10px; color:#FF850C;
 }
-h3 small { line-height: 16px; display:block; padding-top: 5px; color:#FF850C;}
+h3 small { line-height: 16px; display:block; padding-top: 5px; }
 h2 {
 	margin-top: 0px; !important;
 	margin-bottom: 0px; !important;
@@ -20,7 +20,7 @@ li {
 	color: #444;
 	text-align: justify;
 }
-a { color:#44709B; }
+a { color:#44709B !important; }
 a:link {
 	font-weight: bolder; 
 }
