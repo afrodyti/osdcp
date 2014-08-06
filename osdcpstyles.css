@@ -8,7 +8,7 @@ h4, h3 {
 h3 {
 	font-size: 18px;
 }
-h3 small { line-height: 20px; }
+h3 small { line-height: 18px; display:block; }
 h2 {
 	margin-top: 0px; !important;
 	margin-bottom: 0px; !important;
