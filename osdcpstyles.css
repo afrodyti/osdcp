@@ -6,7 +6,8 @@ h4, h3 {
 	color: #F79C44;
 }
 h3 {
-	font-size: 18px;	
+	font-size: 18px;
+	line-height: 20px;
 }
 h2 {
 	margin-top: 0px; !important;
