@@ -6,9 +6,9 @@ h4, h3 {
 	color: #F79C44;
 }
 h3 {
-	font-size: 18px;
+	font-size: 18px; margin-top:10px; 
 }
-h3 small { line-height: 18px; display:block; }
+h3 small { line-height: 18px; display:block; padding-top: 5px; }
 h2 {
 	margin-top: 0px; !important;
 	margin-bottom: 0px; !important;
